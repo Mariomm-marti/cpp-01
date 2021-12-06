@@ -1,8 +1,7 @@
 NAME		= zombie
 
 SRCS		= Zombie.cpp \
-			  randomChump.cpp \
-			  newZombie.cpp \
+			  ZombieHorde.cpp \
 			  main.cpp
 OBJS		= $(SRCS:.cpp=.opp)
 
