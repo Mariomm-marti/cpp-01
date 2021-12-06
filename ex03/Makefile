@@ -1,6 +1,9 @@
-NAME		= hiimbrain 
+NAME		= violence
 
-SRCS		= Weapon.cpp
+SRCS		= Weapon.cpp \
+			  HumanA.cpp \
+			  HumanB.cpp \
+			  main.cpp
 OBJS		= $(SRCS:.cpp=.opp)
 
 COMPILER	= c++
