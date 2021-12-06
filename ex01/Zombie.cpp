@@ -2,10 +2,9 @@
 #include <string>
 #include <iostream>
 
-Zombie::Zombie(std::string const &name)
-{
-	this->name = name;
-}
+Zombie::Zombie(void) { }
+
+Zombie::Zombie(std::string const &name) : name(name) { }
 
 Zombie::~Zombie(void)
 {
