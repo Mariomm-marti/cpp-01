@@ -30,6 +30,7 @@ void	Karen::complain(std::string const level) const
 	std::string	levelNames[4] = { "DEBUG", "INFO", "WARNING", "ERROR" };
 	size_t		levelSeverity;
 
+	levelSeverity = 4;
 	for (size_t i = 0; i < 4; i++)
 		if (levelNames[i].compare(level) == 0)
 			levelSeverity = i;
