@@ -1,4 +1,4 @@
-NAME		= zombie
+NAME		= karenFilter
 
 SRCS		= Karen.cpp \
 			  main.cpp
